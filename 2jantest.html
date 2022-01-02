@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>test</title>
+</head>
+<body>
+<form>
+<body background="https://images.pexels.com/photos/7079774/pexels-photo-7079774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+
+<div align="center" style="border: 1px solid black;">
+</br>
+</br>
+<img src="https://geekster.in/images/logo.svg" alt="" height="50px">
+</br>
+</br>
+  <h3>  Application Form</h3>
+</br>
+</br>
+</br>
+</br>
+ <label>Full Name </label>   
+                    <input type="text" placeholder="Enter Full name"
+                      name="first" required>
+                  
+                       <label>Email</label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+                                 </br>
+                                </br>
+                            <label>password</label>
+                                 <input type="password" placeholder="enter password"
+                                     required  minilength="8"
+                              maxlength="10"  name="pwd" >
+
+</br>
+</br>
+
+ <div><input type="radio" name="sex" value="male" checked>Male <input type="radio" name="sex" value="female">Female</div><br><br>
+                        <div> <label  style="color: white;">Age</label> <input type="range" min="12" max="90" ></div><br><br>
+
+
+
+                               </br>
+                               </br>
+                               <label>city</label>
+                               <input type="text" placeholder="city"
+                               value="bengluru" name="city" readonly/>
+                               </br>
+                            </br>
+                        </br>
+                      <label>enter marks</label>
+                               <input type="number" placeholder="marks"
+                               name="college marks" min="0" max="100" required>
+                            </br>
+                        </br>
+    </br>
+
+    <label>select course</label>
+<select name="course">
+    <option value="01">FULL STACK WEB DEVELOPMENT</option>
+    <option value="02">ADVANCED WEB DEVELOPMENT</option>
+</select>
+</br>
+</br>
+</br
+<label>phone</label>
+<input type="text" placeholder name="Enter mobile number " maxlength="10"
+minilength="10"  name="phone" required>
+</br>
+</br>
+
+<button type="submit" onclick="func()">Submit</button>
+</form>
+</body>
+</html>
